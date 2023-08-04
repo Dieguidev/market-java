@@ -28,7 +28,7 @@ public class ProductoRepository {
     }
 
     public Producto save(Producto producto) {
-        return productoCrudRepository.save(producto)
+        return productoCrudRepository.save(producto);
     }
 
     public void delete(int idProducto) {
